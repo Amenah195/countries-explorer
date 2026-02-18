@@ -23,7 +23,7 @@ https://restcountries.com/v3.1/name/{name}
 - Filter countries by region:
 https://restcountries.com/v3.1/region/{region}
 ## Screenshots
-![Home Screenshot](./Screenshots/home.jpg)
+![Home Screenshot](src/Screenshots/home.jpg)
 ![Result Screenshot](./Screenshots/result.jpg)
 
 ## Built With
