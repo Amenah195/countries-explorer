@@ -12,7 +12,6 @@ A React application that allows users to explore countries using the REST Countr
 - Responsive design
 - 
 ##  API Endpoints Used
-
 This project uses the REST Countries API.
 - Get all countries:
 https://restcountries.com/v3.1/all
