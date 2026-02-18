@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+
+
+body {
+    background-color: white;
+
+}
+
+.title {
+    font-size: 50px;
+    margin-bottom: 30px;
+    margin-top: 60px;
+    color: rgb(6, 96, 45);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    border-radius: 8px;
+    gap: 10px;
+    background-color: darkseagreen;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+    flex-wrap: wrap;
+}
+
+.header input {
+    padding: 10px 15px;
+    background-color: lightgreen;
+    width: 250px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: 0.3s;
+    color: black;
+    font-size: 15px;
+}
+
+.header input:focus {
+    border-color: darkgreen;
+}
+
+.header select {
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    background-color: lightgreen;
+}
+
+
+.country-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 25px;
+    padding: 40px;
+}
+
+.country-card {
+    border: 1px solid green;
+    border-radius: 13px;
+    background-color: rgb(171, 233, 171);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
+    padding: 20px;
+    text-align: center;
+    min-width: 250px;
+}
+
+
+.country-card img {
+    width: 80px;
+    height: 50px;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.country-card h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+
+}
+
+.country-card p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+button {
+    padding: 8px;
+    border: none;
+    border-radius: 6px;
+    background-color: darkseagreen;
+    color: white;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%
+}
+
+button:hover {
+    background-color: lightgreen;
+}
+
+
+@media(max-width:600px) {
+    .header {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .header input {
+        width: 100%;
+    }
+}
