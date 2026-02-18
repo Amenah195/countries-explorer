@@ -22,6 +22,13 @@ https://restcountries.com/v3.1/name/{name}
 
 - Filter countries by region:
 https://restcountries.com/v3.1/region/{region}
+
+## How to run
+1. Clone the repository     >>> https://github.com/Amenah195/countries-explorer
+2. Go to the project folder >>> cd countries-explorer
+3. Install dependencies     >>> npm install
+4. Start the project        >>> open at  http://localhost:5174/
+
 ## Screenshots
 ![Home Screenshot](src/Screenshots/home.jpg)
 ![Result Screenshot](src/Screenshots/result.jpg)
