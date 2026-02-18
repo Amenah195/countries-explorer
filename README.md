@@ -24,7 +24,7 @@ https://restcountries.com/v3.1/name/{name}
 https://restcountries.com/v3.1/region/{region}
 ## Screenshots
 ![Home Screenshot](src/Screenshots/home.jpg)
-![Result Screenshot](./Screenshots/result.jpg)
+![Result Screenshot](src/Screenshots/result.jpg)
 
 ## Built With
 -React
