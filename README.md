@@ -10,7 +10,8 @@ A React application that allows users to explore countries using the REST Countr
 - Loading indicator
 - Error handling with retry button
 - Responsive design
-- 
+
+  
 ##  API Endpoints Used
 This project uses the REST Countries API.
 - Get all countries:
